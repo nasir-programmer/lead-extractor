@@ -14,9 +14,9 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-        'visa' => [
-            'class' => 'backend\modules\visa\module',
-        ],
+        // 'visa' => [
+        //     'class' => 'backend\modules\visa\module',
+        // ],
         'gridview' => [
             'class' => '\kartik\grid\Module',
         ],
